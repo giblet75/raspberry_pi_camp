@@ -1,5 +1,5 @@
 import httplib, urllib, sys, time
-#import pibrella
+import pibrella
 
 if len(sys.argv) == 1:
     print 'Usage: %s <talkback_id>' % sys.argv[0]
